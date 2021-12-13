@@ -43,9 +43,9 @@ FROM
 -- 87.62318	0.7131399999999957
 
 SELECT health_male.year as year, 
-health_male.health_male as h, 
-survival_male.survival_male as su, 
-school_male.school_male as sc,
+health_male.health_male, 
+survival_male.survival_male, 
+school_male.school_male,
 (health_male.health_male-69.919576079512)/3.751534428233498,
 (survival_male.survival_male-40.9)/16.4,
 (school_male.school_male-89.20291)/1.3286599999999993,
